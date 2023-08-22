@@ -7,6 +7,41 @@ html , body{
     height: 100%;
     width: 100%;
 }
+header{
+    border: 2px solid white ;
+    padding: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky;
+    top: 0;
+}
 body{
     background-image: url(./assets/bg.webp);
+    height: 110vh;
+}
+.logoBox{
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 600;
+}
+.navbox{
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+
+}
+.navbox>a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navbox>a:hover{
+    color: salmon;
+
+}
+#homie{
+    color:salmon;
 }
